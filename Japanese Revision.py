@@ -1,6 +1,9 @@
 from random import randint
 from googletrans import Translator, constants
-# from pprint import pprint
+
+# If you get an error, make sure to install the correct version of the google translate module using the pip below:
+# pip install googletrans==4.0.0rc1
+
 
 # activate googletrans
 translator = Translator()
